@@ -40,7 +40,7 @@ in selectors in <CSS file patterns> but do not appear in <Used CSS class file>.
 <CSS file patterns>   - A file path or glob for a CSS file.
 `);
   process.exit(1);
-)
+}
 
 const [usedClassFile, ...cssFilePatterns] = process.argv.slice(2);
 
